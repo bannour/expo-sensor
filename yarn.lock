@@ -2460,6 +2460,13 @@ expo-permissions@~9.3.0:
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-9.3.0.tgz#b90c7e9e411d306c1c7ba2bae18d5c53c201affd"
   integrity sha512-ylSJZVvEGJVFTKsFrUL2S6gCvFt+/o8TJ3xT4WaMjHe2/2Z7R8ng6NR47Kt54t7XBIV/SZ7DIY9uRiR7TPuNYA==
 
+expo-sensors@~9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-9.1.0.tgz#2320281fc5fbf1d64609a11d2bcdb6d248dbe0ea"
+  integrity sha512-YDP+Naj/AoXPiAz02shxqVyJMMdYDVKpuA15M9a/KUoL8tiajLoxkRwgGP37UYMU3po3tK5T9PKDEFHQAlQNtw==
+  dependencies:
+    invariant "^2.2.4"
+
 expo-splash-screen@~0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.6.2.tgz#2be7fc28ad62549e870c69f1fe133ebe756c524f"
@@ -4003,6 +4010,11 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+moment@2.20.1:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
+  integrity sha512-Yh9y73JRljxW5QxN08Fner68eFLxM5ynNOAw2LbIB1YAGeQzZT8QFSUvkAz609Zf+IHhhaUxqZK8dG3W/+HEvg==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -4508,6 +4520,13 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-google-fit@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/react-native-google-fit/-/react-native-google-fit-0.15.0.tgz#a93f353220c57b337986a5c19e43506020cd76f8"
+  integrity sha512-plhyANypX51RvM0vK35zrpBFbu015I/hjPvVXJqJkoFh0wIR1/bGt/eUo8mIiPd9KWo13hfjjbecjEkZIW11GA==
+  dependencies:
+    moment "2.20.1"
 
 react-native-safe-area-context@3.1.4:
   version "3.1.4"
